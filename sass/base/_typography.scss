@@ -2,21 +2,21 @@
     color: $color-white;
     text-transform: uppercase;
     backface-visibility: hidden;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
     &--main {
         display: block;
-        font-size: 60px;
+        font-size: 6rem;
         font-weight: 400;
-        letter-spacing: 35px;
+        letter-spacing: 3.5rem;
         animation: fadeInLeft 1s ease-out;
     }
     &--sub {
         display: block;
-        font-size: 20px;
+        font-size: 2rem;
         font-weight: 700;
-        letter-spacing: 16.5px;
+        letter-spacing: 1.65rem;
         /* padding-right: -100px; */
-        margin-left: -16px;
+        margin-left: -1.6rem;
         animation: fadeInRight 1s ease-out;
     }
 }
