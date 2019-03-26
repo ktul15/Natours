@@ -1,6 +1,6 @@
 .row {
     max-width: $grid-width;
-    background-color: #eee;
+    background-color: transparent;
     margin: 0 auto;
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
@@ -11,8 +11,6 @@
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
         }
-        background-color: black;
-        color: white;
     }
     .col-1-of-2 {
         width: calc((100% - #{$gutter-horizontal}) / 2);
